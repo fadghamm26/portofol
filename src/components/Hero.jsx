@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="about" className="min-h-screen flex items-center pt-16 bg-white">
+    <section id="about" className="min-h-screen flex items-center pt-16 bg-black">
       <div className="max-w-5xl mx-auto px-6 py-24 w-full">
         <div className="flex flex-col md:flex-row md:items-center gap-12">
 
@@ -18,9 +18,9 @@ export default function Hero() {
             <span className="inline-block text-xs font-medium tracking-widest uppercase text-blue-600 bg-blue-50 px-3 py-1 rounded-full mb-4">
               Frontend Developer
             </span>
-            <h1 className="font-display font-bold text-5xl md:text-6xl text-slate-900 leading-tight tracking-tight mb-4">
+            <h1 className="font-display font-bold text-5xl md:text-6xl text-slate-600 leading-tight tracking-tight mb-4">
               Hello, I'am<br />
-              <span className="text-blue-500">Muhammad Vito Fadgham</span>
+              <span className="text-blue-600">Muhammad Vito Fadgham</span>
             </h1>
             <p className="text-slate-500 text-lg leading-relaxed max-w-xl mb-8">
               Saya adalah mahasiswa Teknologi Informasi yang berfokus pada pengembangan Front-End & UI/UX Designer. 

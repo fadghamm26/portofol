@@ -2,7 +2,7 @@ const projects = [
   {
     title: 'E-Commerce web',
     desc: 'website e-commerce dengan fitur keranjang, autentikasi pengguna, dan integrasi payment gateway.',
-    tags: ['React', 'Tailwind CSS', 'Node.js', 'MongoDB'],
+    tags: ['React', 'Tailwind CSS', 'Node.js'],
     emoji: '🛒',
     link: 'https://github.com/fadghamm26/debora_craft',
   },

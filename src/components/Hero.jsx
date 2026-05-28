@@ -4,13 +4,15 @@ export default function Hero() {
       <div className="max-w-5xl mx-auto px-6 py-24 w-full">
         <div className="flex flex-col md:flex-row md:items-center gap-12">
 
-          {/* Avatar */}
-          <div className="flex-shrink-0">
-            <div className="w-32 h-32 rounded-2xl bg-blue-50 border border-blue-100 flex items-center justify-center">
-              <span className="font-display font-bold text-4xl text-blue-600"></span>
-            </div>
-          </div>
 
+           {/* Photo */}
+          <div className="flex-1  justify-center md:justify-start">
+            <img 
+              src="poto.png" 
+              alt="Muhammad Vito Fadgham" 
+              className="w-full max-w-md rounded-lg"
+            />
+          </div>
           {/* Text */}
           <div className="flex-1">
             <span className="inline-block text-xs font-medium tracking-widest uppercase text-blue-600 bg-blue-50 px-3 py-1 rounded-full mb-4">
@@ -40,17 +42,6 @@ export default function Hero() {
               </a>
             </div>
 
-            {/* Stats */}
-            <div className="flex gap-10">
-              {[
-                
-              ].map(({ number, label }) => (
-                <div key={label}>
-                  <p className="font-display font-bold text-2xl text-slate-900">{number}</p>
-                  <p className="text-sm text-slate-400">{label}</p>
-                </div>
-              ))}
-            </div>
           </div>
 
         </div>
